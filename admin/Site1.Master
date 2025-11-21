@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" %>
+<%@ Import Namespace="System.Web.UI" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>My Site</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Full-page background */
+        .image-container {
+            position: relative;
+            width: 100%;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1e3c72, #2a5298, #6dd5ed);
+        }
+
+        /* Overlay box for login/register pages */
+        .overlay-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 15px;
+            width: 400px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        /* Form input styles */
+        input[type="text"],
+        input[type="password"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"], button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover, button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="image-container">
+            <!-- Admin / Normal content -->
+            <asp:ContentPlaceHolder ID="PlainContent" runat="server"></asp:ContentPlaceHolder>
+
+            <!-- Overlay content for login/register pages -->
+            <div id="overlayDiv" class="overlay-content" runat="server" 
+                 visible='<%# MainContent.Controls.Count > 0 %>'>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+
+    <script runat="server">
+        protected override void OnPreRender(EventArgs e)
+        {
+            base.OnPreRender(e);
+            // Hide overlay if MainContent is empty
+            overlayDiv.Visible = MainContent.Controls.Count > 0;
+        }
+    </script>
+</body>
+</html>

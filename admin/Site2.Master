@@ -1,0 +1,185 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="admin.Site2" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FitBuy</title>
+
+    <link rel="icon" type="image/png" href="Phs/logo.png" />
+
+
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            background: linear-gradient(135deg, #fdfbfb, #ebedee);
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navbar styling */
+        nav.navbar {
+            background: linear-gradient(135deg, #1e3c72, #2a5298, #6dd5ed);
+            padding: 30px 30px; /* taller navbar */
+            box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+            border-radius: 0; /* no rounded corners */
+        }
+
+        /* Brand styling */
+        .navbar .navbar-brand {
+    font-size: 50px !important;   /* force bigger size */
+    font-weight: 900 !important;  /* bold */
+    color: #00ffb3 !important;    /* keep original color */
+    letter-spacing: 1px;
+}
+
+        .navbar-brand:hover {
+            color: #ffffff !important;
+        }
+
+        /* Nav items */
+        .navbar-nav .nav-link {
+            color: #fff !important;
+            font-weight: 700;
+            font-size: 18px; /* slightly bigger */
+            margin: 0 16px;
+            padding: 10px 16px;
+            transition: all 0.3s ease;
+        }
+        .navbar-nav .nav-link:hover {
+            background-color: rgba(255,255,255,0.15);
+            color: #ffd369 !important;
+            border-radius: 6px;
+        }
+
+        /* Dropdown styling */
+        .navbar-nav .dropdown-toggle::after {
+            margin-left: 8px;
+            transition: transform 0.3s ease;
+        }
+        .navbar-nav .dropdown.show .dropdown-toggle::after {
+            transform: rotate(180deg);
+        }
+        .dropdown-menu {
+            border-radius: 12px;
+            padding: 6px 0;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+            background-color: #ffffff;
+        }
+        .dropdown-menu .dropdown-item {
+            color: #222 !important;
+            padding: 10px 20px;
+        }
+        .dropdown-menu .dropdown-item:hover {
+            background-color: #f0f0f0;
+            color: #1e3c72 !important;
+        }
+
+        /* Toggler button */
+        .navbar-toggler {
+            border: none;
+            outline: none;
+        }
+        .navbar-toggler-icon {
+            background-color: #fff;
+            border-radius: 4px;
+        }
+
+        /* Search bar */
+        .navbar .form-control {
+            border-radius: 30px;
+            padding: 8px 16px;
+            border: none;
+            width: 300px; /* wider search bar */
+            transition: all 0.3s ease;
+        }
+        .navbar .form-control:focus {
+            box-shadow: 0 0 12px rgba(255,255,255,0.6);
+            outline: none;
+        }
+
+        /* Footer */
+        footer.bg-dark {
+            background: #1a1a2e !important;
+        }
+        footer h2, footer a {
+            color: #f0f0f0 !important;
+        }
+        footer a:hover {
+            color: #36d1dc !important;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark shadow">
+            <div class="container d-flex justify-content-between align-items-center">
+                <a class="navbar-brand" href="index.html">FitBuy</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="templatemo_main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                    <ul class="navbar-nav mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="mainpage.aspx">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="feedback.aspx">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Proctshown.aspx">Shop</a>
+                        </li>
+                 
+
+                        <!-- Account Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarAccount" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Account
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarAccount">
+                                <li><a class="dropdown-item" href="loginpage.aspx">Login</a></li>
+                                <li><a class="dropdown-item" href="userreg.aspx">Signup</a></li>
+                                <li><a class="dropdown-item" href="adminreg.aspx">Admin Signup</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- Search bar -->
+                    <div class="d-flex align-items-center">
+                        <input type="text" class="form-control me-2 d-none d-lg-block" placeholder="Search ...">
+                        <button type="button" class="btn btn-success d-none d-lg-block">Search</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page content placeholder -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    </form>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 FitBuy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+</body>
+</html>
