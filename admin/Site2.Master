@@ -136,7 +136,7 @@
                             <a class="nav-link" href="mainpage.aspx">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="feedback.aspx">About</a>
+                            <a class="nav-link" href="feedback.aspx">feedback</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Proctshown.aspx">Shop</a>

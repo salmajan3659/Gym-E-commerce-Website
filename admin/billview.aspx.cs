@@ -30,7 +30,6 @@ namespace admin
                         Label1.Text = dr["order_date"].ToString();
                     }
 
-                    // ✅ Fetch only this user’s orders
                     string j = "SELECT o.quantity, o.subtotal, p.Name , p.price, p.brand " +
                                "FROM dbo.orders o " +
                                "INNER JOIN dbo.product p ON o.product_id = p.pro_id " +

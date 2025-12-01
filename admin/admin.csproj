@@ -132,6 +132,9 @@
     <Content Include="assets\webfonts\fa-solid-900.svg" />
     <Content Include="assets\webfonts\slick.svg" />
     <Content Include="billview.aspx" />
+    <Content Include="feedback.aspx" />
+    <Content Include="viewfeedback.aspx" />
+    <Content Include="WebForm11.aspx" />
     <None Include="Connected Services\bal\Service.disco" />
     <None Include="Connected Services\bal\configuration91.svcinfo" />
     <None Include="Connected Services\bal\configuration.svcinfo" />
@@ -152,7 +155,7 @@
     <Content Include="addCategory.aspx" />
     <Content Include="Veiwpage.aspx" />
     <Content Include="mainpage.aspx" />
-    <Content Include="Proctshown.aspx" />
+    <Content Include="Productpage.aspx" />
     <Content Include="Admin.aspx" />
     <Content Include="EditCategory.aspx" />
     <Content Include="editpro.aspx" />
@@ -186,6 +189,13 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="DBConnectionClass.cs" />
+    <Compile Include="feedback.aspx.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="feedback.aspx.designer.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PROFILE.aspx.cs">
       <DependentUpon>PROFILE.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -257,12 +267,12 @@
     <Compile Include="mainpage.aspx.designer.cs">
       <DependentUpon>mainpage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Proctshown.aspx.cs">
-      <DependentUpon>Proctshown.aspx</DependentUpon>
+    <Compile Include="Productpage.aspx.cs">
+      <DependentUpon>Productpage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Proctshown.aspx.designer.cs">
-      <DependentUpon>Proctshown.aspx</DependentUpon>
+    <Compile Include="Productpage.aspx.designer.cs">
+      <DependentUpon>Productpage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin.aspx.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
@@ -291,6 +301,20 @@
     </Compile>
     <Compile Include="cart.aspx.designer.cs">
       <DependentUpon>cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewfeedback.aspx.cs">
+      <DependentUpon>viewfeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewfeedback.aspx.designer.cs">
+      <DependentUpon>viewfeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm11.aspx.cs">
+      <DependentUpon>WebForm11.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm11.aspx.designer.cs">
+      <DependentUpon>WebForm11.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -80,7 +80,7 @@ body {
 }
 
 .carousel-inner {
-    height: 700px; /* Banner height */
+    height: 600px; /* Banner height */
     position: relative;
 }
 

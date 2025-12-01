@@ -11,52 +11,52 @@ namespace admin
 {
 
 
-    public partial class PROFILE
+    public partial class WebForm6
     {
 
         /// <summary>
-        /// form1 control.
+        /// chkSupp control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.CheckBox chkSupp;
 
         /// <summary>
-        /// LabelAdminName control.
+        /// chkEquip control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelAdminName;
+        protected global::System.Web.UI.WebControls.CheckBox chkEquip;
 
         /// <summary>
-        /// Label1 control.
+        /// chkAcc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.CheckBox chkAcc;
 
         /// <summary>
-        /// LabelAdminPhone control.
+        /// chkCloth control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelAdminPhone;
+        protected global::System.Web.UI.WebControls.CheckBox chkCloth;
 
         /// <summary>
-        /// GridView1 control.
+        /// DataList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.DataList DataList1;
     }
 }

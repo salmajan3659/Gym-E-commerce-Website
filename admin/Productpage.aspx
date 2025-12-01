@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site2.Master" AutoEventWireup="true" CodeBehind="Proctshown.aspx.cs" Inherits="admin.WebForm6" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site2.Master" AutoEventWireup="true" CodeBehind="Productpage.aspx.cs" Inherits="admin.WebForm6" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <style>
@@ -35,7 +35,7 @@
         }
 
         .filter-group {
-            margin-bottom: 25px;
+            margin-bottom: 28px;
         }
 
         .filter-group h4 {
@@ -45,17 +45,22 @@
         }
 
         .filter-group label {
-            display: block;
-            font-size: 14px;
-            color: #555;
-            margin: 4px 0;
-            cursor: pointer;
-        }
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #333;
+    margin: 6px 0;
+    cursor: pointer;
+}
 
-        input[type="checkbox"], input[type="radio"] {
-            accent-color: #c45500;
-            margin-right: 6px;
-        }
+.filter-group input[type="checkbox"],
+.filter-group input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+}
+
 
         /* 🔹 Products Section */
         .products-grid {
@@ -169,13 +174,14 @@
         <div class="sidebar">
             <h3>Filters</h3>
 
-            <div class="filter-group">
-                <h4>Category</h4>
-                <label><input type="checkbox" /> Equipments</label>
-                <label><input type="checkbox" /> Accessories</label>
-                <label><input type="checkbox" /> Clothing</label>
-                <label><input type="checkbox" /> Supplements</label>
-            </div>
+           <div class="filter-group">
+              <h4>Category</h4>
+         <label><asp:CheckBox ID="chkSupp" runat="server" Text=" Supplements" /></label>
+          <label><asp:CheckBox ID="chkEquip" runat="server" Text=" Equipments" /></label>
+            <label><asp:CheckBox ID="chkAcc" runat="server" Text=" Gym Accessories" /></label>
+          <label><asp:CheckBox ID="chkCloth" runat="server" Text=" Gym Clothings" /></label>
+              </div>
+
 
             <div class="filter-group">
                 <h4>Price</h4>

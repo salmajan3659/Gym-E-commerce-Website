@@ -27,6 +27,10 @@ namespace admin
                 string logtype = obj.Fn_Scalar(ins2);
                 if (logtype == "admin")
                 {
+                    string adminQuery = "SELECT Admin_Id FROM Admin WHERE  Admin_Id= " + regid1;
+                    string adminId = obj.Fn_Scalar(adminQuery);
+
+                    Session["AdminId"] = adminId;
                     Response.Redirect("Admin.aspx");
                 }
                 else if (logtype == "user")
