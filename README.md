@@ -88,15 +88,11 @@ admin/
 
 | Account Page | Feedback Page |
 |--|--|
-| <img width="450" src="<img width="1920" height="1008" alt="Screenshot 2025-11-30 213023" src="https://github.com/user-attachments/assets/07a3682c-fb46-4b59-ae4e-d36fe893a345" />
-" /> | <img width="450" src="<img width="1920" height="1008" alt="Screenshot 2025-11-30 213553" src="https://github.com/user-attachments/assets/7f3d7953-c3a9-43d0-8810-f7dfb27044dc" />
-" /> |
+| <img width="450" src="https://github.com/user-attachments/assets/07a3682c-fb46-4b59-ae4e-d36fe893a345" /> | <img width="450" src="https://github.com/user-attachments/assets/7f3d7953-c3a9-43d0-8810-f7dfb27044dc" /> |
 
 | Product Listing | Single Product |
 |--|--|
-| <img width="450" src="<img width="1920" height="1008" alt="Screenshot 2025-11-30 213043" src="https://github.com/user-attachments/assets/0927dd1c-b405-460a-b76c-4534dbc1a1e2" />
-" /> | <img width="450" src="<img width="1920" height="1008" alt="Screenshot 2025-11-30 213201" src="https://github.com/user-attachments/assets/22e4af11-6e46-4d4a-9439-d92103493ddc" />
-" /> |
+| <img width="450" src="https://github.com/user-attachments/assets/0927dd1c-b405-460a-b76c-4534dbc1a1e2" /> | <img width="450" src="https://github.com/user-attachments/assets/22e4af11-6e46-4d4a-9439-d92103493ddc" /> |
 
 ---
 
@@ -104,9 +100,7 @@ admin/
 
 | Cart Page | Billing Page |
 |--|--|
-| <img width="450" src="<img width="1920" height="1008" alt="Screenshot 2025-11-30 213214" src="https://github.com/user-attachments/assets/67b99eba-3386-48c4-8bf4-0694aa2072c2" />
-" /> | <img width="450" src="<img width="1920" height="1008" alt="Screenshot 2025-11-30 213532" src="https://github.com/user-attachments/assets/12da04f3-14e2-4237-8d89-70186256e347" />
-" /> |
+| <img width="450" src="https://github.com/user-attachments/assets/67b99eba-3386-48c4-8bf4-0694aa2072c2" /> | <img width="450" src="https://github.com/user-attachments/assets/12da04f3-14e2-4237-8d89-70186256e347" /> |
 
 ---
 
@@ -114,8 +108,8 @@ admin/
 
 | Admin Dashboard | — |
 |--|--|
-| <img width="450" src="<img width="1920" height="1008" alt="Screenshot 2025-12-02 123017" src="https://github.com/user-attachments/assets/7279c742-6b1f-4c53-a735-75fd6c9b969d" />
-" /> | — |
+| <img width="450" src="https://github.com/user-attachments/assets/7279c742-6b1f-4c53-a735-75fd6c9b969d" /> | — |
+
 
 
 
