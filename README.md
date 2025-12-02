@@ -82,22 +82,29 @@ admin/
 | **Site1.Master** | Main UI layout for the customer side |
 | **Site2.Master** | Admin layout with FitBuy branding |
 
+## 🖥️ User Interface Screens
 
-## DashBoard page
-<img width="1920" height="1008" alt="Screenshot 2025-11-30 213023" src="https://github.com/user-attachments/assets/d69bad3e-0172-47d5-84d2-48944e39eb07" />
-<img width="1920" height="1008" alt="Screenshot 2025-11-30 213032" src="https://github.com/user-attachments/assets/fd955b24-6aea-47bf-b434-61449bedf658" />
+### 🛍 Customer UI Pages
 
-## Product Page
-<img width="1920" height="1008" alt="Screenshot 2025-11-30 213043" src="https://github.com/user-attachments/assets/c8380e4e-8a94-4bf1-a0e0-ec789722a2f2" />
+#### 🏠 Dashboard / Home Page
+<img width="1920" height="1008" alt="Dashboard Screenshot" src="https://github.com/user-attachments/assets/d69bad3e-0172-47d5-84d2-48944e39eb07" />
+<img width="1920" height="1008" alt="Dashboard Screenshot 2" src="https://github.com/user-attachments/assets/fd955b24-6aea-47bf-b434-61449bedf658" />
 
-## Single page
-<img width="1920" height="1008" alt="Screenshot 2025-11-30 213208" src="https://github.com/user-attachments/assets/6ce4fe0d-fd39-4f04-b01b-d23fc2568272" />
+#### 🛒 Product Listing Page
+<img width="1920" height="1008" alt="Product Page" src="https://github.com/user-attachments/assets/c8380e4e-8a94-4bf1-a0e0-ec789722a2f2" />
 
-## Cart Page
-<img width="1920" height="1008" alt="Screenshot 2025-11-30 213214" src="https://github.com/user-attachments/assets/e65bbd9d-27ff-40ed-b1af-5280577f651b" />
+#### 📄 Single Product Page
+<img width="1920" height="1008" alt="Single Product Page" src="https://github.com/user-attachments/assets/6ce4fe0d-fd39-4f04-b01b-d23fc2568272" />
 
-## Billing Page
-<img width="1920" height="1008" alt="Screenshot 2025-11-30 213532" src="https://github.com/user-attachments/assets/08c3a4ff-1b6d-41c3-b9de-0a2ab2ed648e" />
+---
+
+### 🧾 Shopping & Checkout
+
+#### 🛍 Cart Page
+<img width="1920" height="1008" alt="Cart Page" src="https://github.com/user-attachments/assets/e65bbd9d-27ff-40ed-b1af-5280577f651b" />
+
+#### 💳 Billing / Payment Page
+<img width="1920" height="1008" alt="Billing Page" src="https://github.com/user-attachments/assets/08c3a4ff-1b6d-41c3-b9de-0a2ab2ed648e" />
 
 
 ## 📦 Database
