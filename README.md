@@ -106,9 +106,9 @@ admin/
 
 ### 🛠 Admin Dashboard
 
-| Admin Dashboard | — |
-|--|--|
-| <img width="450" src="https://github.com/user-attachments/assets/7279c742-6b1f-4c53-a735-75fd6c9b969d" /> | — |
+| Admin Dashboard |
+|--|
+| <img width="450" src="https://github.com/user-attachments/assets/7279c742-6b1f-4c53-a735-75fd6c9b969d" /> | 
 
 
 
