@@ -88,12 +88,15 @@ admin/
 
 | Account Page | Feedback Page |
 |--|--|
-| <img width="450" src="https://github.com/user-attachments/assets/972bb63b-219e-4828-97ac-707deacf931c.png" /> | <img width="450" src="https://github.com/user-attachments/assets/caffe7a1-8abc-4cde-82b5-1ad5f5c8770f.png" /> |
-
+| <img width="450" src="<img width="1920" height="1008" alt="Screenshot 2025-11-30 213023" src="https://github.com/user-attachments/assets/07a3682c-fb46-4b59-ae4e-d36fe893a345" />
+" /> | <img width="450" src="<img width="1920" height="1008" alt="Screenshot 2025-11-30 213553" src="https://github.com/user-attachments/assets/7f3d7953-c3a9-43d0-8810-f7dfb27044dc" />
+" /> |
 
 | Product Listing | Single Product |
 |--|--|
-| <img width="450" src="https://github.com/user-attachments/assets/c8380e4e-8a94-4bf1-a0e0-ec789722a2f2" /> | <img width="450" src="https://github.com/user-attachments/assets/6ce4fe0d-fd39-4f04-b01b-d23fc2568272" /> |
+| <img width="450" src="<img width="1920" height="1008" alt="Screenshot 2025-11-30 213043" src="https://github.com/user-attachments/assets/0927dd1c-b405-460a-b76c-4534dbc1a1e2" />
+" /> | <img width="450" src="<img width="1920" height="1008" alt="Screenshot 2025-11-30 213201" src="https://github.com/user-attachments/assets/22e4af11-6e46-4d4a-9439-d92103493ddc" />
+" /> |
 
 ---
 
@@ -101,15 +104,18 @@ admin/
 
 | Cart Page | Billing Page |
 |--|--|
-| <img width="450" src="https://github.com/user-attachments/assets/e65bbd9d-27ff-40ed-b1af-5280577f651b.png" /> | <img width="450" src="https://github.com/user-attachments/assets/08c3a4ff-1b6d-41c3-b9de-0a2ab2ed648e.png" /> |
+| <img width="450" src="<img width="1920" height="1008" alt="Screenshot 2025-11-30 213214" src="https://github.com/user-attachments/assets/67b99eba-3386-48c4-8bf4-0694aa2072c2" />
+" /> | <img width="450" src="<img width="1920" height="1008" alt="Screenshot 2025-11-30 213532" src="https://github.com/user-attachments/assets/12da04f3-14e2-4237-8d89-70186256e347" />
+" /> |
 
 ---
 
 ### 🛠 Admin Dashboard
 
-| Admin Home | — |
+| Admin Dashboard | — |
 |--|--|
-| <img width="450" src="https://github.com/user-attachments/assets/54eebea0-13e2-4279-94c4-0824e9898931.png" /> | — |
+| <img width="450" src="<img width="1920" height="1008" alt="Screenshot 2025-12-02 123017" src="https://github.com/user-attachments/assets/7279c742-6b1f-4c53-a735-75fd6c9b969d" />
+" /> | — |
 
 
 
