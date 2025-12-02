@@ -1,11 +1,6 @@
 ## 📋 Project Overview
 
 FitBuy is a full-featured e-commerce application specializing in gym supplements, equipment, and fitness accessories. The platform provides both customer-facing shopping functionality and administrative management tools.
-## Home page
-<img width="1920" height="1008" alt="Screenshot 2025-11-30 213023" src="https://github.com/user-attachments/assets/d69bad3e-0172-47d5-84d2-48944e39eb07" />
-
-## Product Page
-<img width="1920" height="1008" alt="Screenshot 2025-11-30 213043" src="https://github.com/user-attachments/assets/c8380e4e-8a94-4bf1-a0e0-ec789722a2f2" />
 
 ## 🏗️ Architecture
 
@@ -36,31 +31,74 @@ admin/
 
 ## 🔧 Key Features
 
-### Customer Features
-- **Product Browsing**: Browse gym supplements, clothing, and accessories
-- **Single Product View**: Detailed product pages with images, descriptions, and pricing
-- **Shopping Cart**: Add products to cart with quantity selection
-- **Product Search**: Search and filter functionality
-- **Responsive Design**: Mobile-friendly interface
+### 🛍 Customer Features
+- **Product Browsing**: Explore supplements, gym equipment, and clothing
+- **Single Product View**: Detailed display with images, brand, and pricing
+- **Shopping Cart**: Add products with quantity selection and checkout support
+- **Product Search**: Search and category-based filtering
+- **Responsive Design**: Optimized for mobile and desktop
 
-### Admin Features
-- **Product Management**: Add, edit, and view products
-- **Category Management**: Organize products by categories
-- **Order Tracking**: View and manage customer orders
-- **Feedback Management**: View customer feedback and reviews
-- **User Management**: Admin profile and user list management
+### 🛠 Admin Features
+- **Product Management**: Add, edit, view, and manage inventory
+- **Category Management**: Organize products by category
+- **Order Tracking**: View and manage purchase orders
+- **Feedback Management**: Monitor customer reviews and ratings
+- **User Management**: Admin profile and registered user list
 
-### Core Pages
+---
+
+## 📄 Major Application Pages
+
+### 🛍 Customer Pages
 
 | Page | Purpose |
 |------|---------|
-| index.html | Homepage with featured products |
-| shop.html | Product catalog and listing |
-| shop-single.html | Individual product details |
-| about.html | Company information and services |
-| contact.html | Contact form with map integration |
-| Singlepage.aspx | ASP.NET product detail page |
-| mainpage.aspx | Main dashboard page |
+| **index.html** | Homepage with featured and trending products |
+| **Product.aspx** | Product listing based on selected category |
+| **Singlepage.aspx** | Detailed product view + Add to cart |
+| **cart.aspx** | Manage selected items and checkout |
+| **feedback.aspx** | Submit user feedback for products |
+| **account.aspx** | User login, registration & profile |
+
+---
+
+### 🛠️ Admin Pages
+
+| Page | Purpose |
+|------|---------|
+| **Admin.aspx / mainpage.aspx** | Admin dashboard overview |
+| **Add Product.aspx** | Add and manage products |
+| **addCategory.aspx** | Create and manage product categories |
+| **PROFILE.aspx** | Admin profile and registered users |
+| **feedback.aspx** | View and manage customer feedback |
+| **Product.aspx** | Admin product view based on selected category |
+
+---
+
+### 🧩 Master Pages
+
+| File | Description |
+|------|-------------|
+| **Site1.Master** | Main UI layout for the customer side |
+| **Site2.Master** | Admin layout with FitBuy branding |
+
+
+## DashBoard page
+<img width="1920" height="1008" alt="Screenshot 2025-11-30 213023" src="https://github.com/user-attachments/assets/d69bad3e-0172-47d5-84d2-48944e39eb07" />
+<img width="1920" height="1008" alt="Screenshot 2025-11-30 213032" src="https://github.com/user-attachments/assets/fd955b24-6aea-47bf-b434-61449bedf658" />
+
+## Product Page
+<img width="1920" height="1008" alt="Screenshot 2025-11-30 213043" src="https://github.com/user-attachments/assets/c8380e4e-8a94-4bf1-a0e0-ec789722a2f2" />
+
+## Single page
+<img width="1920" height="1008" alt="Screenshot 2025-11-30 213208" src="https://github.com/user-attachments/assets/6ce4fe0d-fd39-4f04-b01b-d23fc2568272" />
+
+## Cart Page
+<img width="1920" height="1008" alt="Screenshot 2025-11-30 213214" src="https://github.com/user-attachments/assets/e65bbd9d-27ff-40ed-b1af-5280577f651b" />
+
+## Billing Page
+<img width="1920" height="1008" alt="Screenshot 2025-11-30 213532" src="https://github.com/user-attachments/assets/08c3a4ff-1b6d-41c3-b9de-0a2ab2ed648e" />
+
 
 ## 📦 Database
 
@@ -88,26 +126,6 @@ Connection via `DBConnectionClass.cs`
 - **Bootstrap 5**: Responsive grid and components
 - **FontAwesome**: Icon library for UI elements
 - **Custom CSS**: Brand-specific styling via custom.css
-
-## 📝 ASP.NET Pages
-
-### Server-Side Forms
-
-| Page | Purpose |
-|------|---------|
-| account.aspx | User account management |
-| Add Product.aspx | Admin product creation |
-| addCategory.aspx | Category management |
-| Admin.aspx | Admin dashboard |
-| adminreg.aspx | Admin registration |
-| cart.aspx | Shopping cart |
-| feedback.aspx | Feedback submission |
-| PROFILE.aspx | Admin profile and users list |
-
-### Master Pages
-
-- Site1.Master - Primary master page
-- Site2.Master - Secondary master page with FitBuy branding
 
 ## 🚀 Getting Started
 
