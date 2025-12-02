@@ -84,23 +84,32 @@ admin/
 
 ## 🖥️ User Interface Screens
 
-### 🛍 Customer UI Pages
-## 🖥️ User Interface Screens
+### 🛍 Customer Pages
 
-### Dashboard Page
-|  |  |
+| Account Page | Feedback Page |
 |--|--|
-| <img width="450" alt="Dashboard1" src="https://github.com/user-attachments/assets/d69bad3e-0172-47d5-84d2-48944e39eb07" /> | <img width="450" alt="Dashboard2" src="https://github.com/user-attachments/assets/fd955b24-6aea-47bf-b434-61449bedf658" /> |
+| <img width="450" src="https://github.com/user-attachments/assets/972bb63b-219e-4828-97ac-707deacf931c.png" /> | <img width="450" src="https://github.com/user-attachments/assets/caffe7a1-8abc-4cde-82b5-1ad5f5c8770f.png" /> |
 
-### Product and Single Product Pages
-|  |  |
-|--|--|
-| <img width="450" alt="Product Page" src="https://github.com/user-attachments/assets/c8380e4e-8a94-4bf1-a0e0-ec789722a2f2" /> | <img width="450" alt="Single Product Page" src="https://github.com/user-attachments/assets/6ce4fe0d-fd39-4f04-b01b-d23fc2568272" /> |
 
-### Cart and Billing Pages
-|  |  |
+| Product Listing | Single Product |
 |--|--|
-| <img width="450" alt="Cart Page" src="https://github.com/user-attachments/assets/e65bbd9d-27ff-40ed-b1af-5280577f651b" /> | <img width="450" alt="Billing Page" src="https://github.com/user-attachments/assets/08c3a4ff-1b6d-41c3-b9de-0a2ab2ed648e" /> |
+| <img width="450" src="https://github.com/user-attachments/assets/c8380e4e-8a94-4bf1-a0e0-ec789722a2f2" /> | <img width="450" src="https://github.com/user-attachments/assets/6ce4fe0d-fd39-4f04-b01b-d23fc2568272" /> |
+
+---
+
+### 🧾 Shopping & Checkout
+
+| Cart Page | Billing Page |
+|--|--|
+| <img width="450" src="https://github.com/user-attachments/assets/e65bbd9d-27ff-40ed-b1af-5280577f651b.png" /> | <img width="450" src="https://github.com/user-attachments/assets/08c3a4ff-1b6d-41c3-b9de-0a2ab2ed648e.png" /> |
+
+---
+
+### 🛠 Admin Dashboard
+
+| Admin Home | — |
+|--|--|
+| <img width="450" src="https://github.com/user-attachments/assets/54eebea0-13e2-4279-94c4-0824e9898931.png" /> | — |
 
 
 
