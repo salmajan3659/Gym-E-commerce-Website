@@ -7,7 +7,7 @@ FitBuy is a full-featured e-commerce application specializing in gym supplements
 ### Technology Stack
 
 - **Backend**: ASP.NET 4.7.2 (C#)
-- **Frontend**: HTML5, CSS3, Bootstrap 5, JS
+- **Frontend**: HTML5, CSS3, Bootstrap 5
 - **Database**: SQL Server
 - **Web Services**: Windows Communication Foundation (WCF)
 - **Build System**: MSBuild
