@@ -1,8 +1,11 @@
 ## 📋 Project Overview
 
 FitBuy is a full-featured e-commerce application specializing in gym supplements, equipment, and fitness accessories. The platform provides both customer-facing shopping functionality and administrative management tools.
-
+## Home page
 <img width="1920" height="1008" alt="Screenshot 2025-11-30 213023" src="https://github.com/user-attachments/assets/d69bad3e-0172-47d5-84d2-48944e39eb07" />
+
+## Product Page
+<img width="1920" height="1008" alt="Screenshot 2025-11-30 213043" src="https://github.com/user-attachments/assets/c8380e4e-8a94-4bf1-a0e0-ec789722a2f2" />
 
 ## 🏗️ Architecture
 
