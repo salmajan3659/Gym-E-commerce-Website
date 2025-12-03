@@ -113,13 +113,28 @@ admin/
 
 
 
-## 📦 Database
+📦 Database
 
-The application uses SQL Server with the following key entities:
-- **Products**: Name, brand, description, price, stock, image
-- **Categories**: Product categorization
-- **Users**: Customer accounts
-- **Orders/Cart**: Shopping cart and order management
+The application uses SQL Server and follows a structured relational database design.
+The key entities include:
+
+**Products**: Stores product details such as name, brand, description, price, stock quantity, image, and assigned category.
+
+**Categories**: Organizes products into groups for easier browsing and filtering.
+
+**User**: Contains customer account information including fullname, phone, gender, DOB, address, email, username, password, joined date, and status.
+
+**Cart**: Holds items temporarily added by users prior to checkout, including product ID, quantity, and price.
+
+**Orders**: Manages confirmed orders with order date, total amount, user details, and delivery/payment status.
+
+**OrderDetails**: Stores item-level details of each order (product, quantity, unit price, total).
+
+**Log_Table**: Handles authentication, storing username, password, role (admin/user), and account status.
+
+**Payments**: Tracks payment information such as method, amount, payment date, and status.
+
+**Reviews**: Stores user feedback and ratings for purchased products.
 
 Connection via `DBConnectionClass.cs`
 
